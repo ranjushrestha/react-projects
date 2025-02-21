@@ -6,6 +6,8 @@ import Button from './Button.jsx'
 import Student from './Student.jsx'
 import UserGreeting from './UserGreeting.jsx'
 import List from './List.jsx'
+import Buttons from './Button2.jsx'
+import ProfilePicture  from './ProfilePicture.jsx'
 
 
 function App() {
@@ -29,6 +31,8 @@ function App() {
     <Card/>
     <Card/>
     <Button/>
+    <ProfilePicture/>
+    <Buttons/>
     <Student name="Anuj" age= {23} isStudent= "true"/>
     <Student name="Gautam" age= {23} isStudent= "false"/>
     <Student name="Sudip" age= {20} isStudent= "true"/>
