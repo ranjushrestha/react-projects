@@ -8,6 +8,7 @@ import UserGreeting from './UserGreeting.jsx'
 import List from './List.jsx'
 import Buttons from './Button2.jsx'
 import ProfilePicture  from './ProfilePicture.jsx'
+import MyComponent from './MyComponent.jsx'
 
 
 function App() {
@@ -33,13 +34,14 @@ function App() {
     <Button/>
     <ProfilePicture/>
     <Buttons/>
-    <Student name="Anuj" age= {23} isStudent= "true"/>
-    <Student name="Gautam" age= {23} isStudent= "false"/>
-    <Student name="Sudip" age= {20} isStudent= "true"/>
+    <Student name="Adina" age= {23} isStudent= "true"/>
+    <Student name="Krisa" age= {23} isStudent= "false"/>
+    <Student name="Arya" age= {20} isStudent= "true"/>
     <Student />
     <UserGreeting isLoggedIn={true} username="Ranju"/>
     {fruits.length > 0 && <List items={fruits} category="Fruits"/> }
     {vegetables.length > 0 && <List items={vegetables} category="Vegetables"/> }
+    <MyComponent/>
     <Footer />
 
     </>
