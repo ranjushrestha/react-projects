@@ -9,6 +9,19 @@ import List from './List.jsx'
 
 
 function App() {
+
+  const fruits = [{id: 1, name: "apple", calories: 100},
+    {id: 2, name: "orange", calories: 89},
+    {id: 3, name:"papaya", calories: 88},
+    {id: 4, name: "coconut", calories: 59}
+];
+
+    const vegetables = [{id: 5, name: "cauliflower", calories: 100},
+    {id: 6, name: "carrot", calories: 89},
+    {id: 7, name:"brocoli", calories: 88},
+    {id: 8, name: "cucumber", calories: 30}
+  ];
+
   return(
     <>
     <Header/>
@@ -21,7 +34,8 @@ function App() {
     <Student name="Sudip" age= {20} isStudent= "true"/>
     <Student />
     <UserGreeting isLoggedIn={true} username="Ranju"/>
-    <List/>
+    {fruits.length > 0 && <List items={fruits} category="Fruits"/> }
+    {vegetables.length > 0 && <List items={vegetables} category="Vegetables"/> }
     <Footer />
 
     </>

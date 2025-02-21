@@ -56,3 +56,27 @@
   border-radius: 5px;
   margin: 0;
 }
+
+.list-category {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: hsl(240, 88%, 25%);
+  margin-bottom: 10px;
+  text-align: center;
+  border: 3px solid;
+  border-radius: 5px;
+  background-color: hsl(268, 39%, 57%);
+}
+
+.list-items li {
+  font-size: 2em;
+  list-style: none;
+  color: hsl(180, 57%, 25%);
+  text-align: center;
+  margin: 0;
+}
+
+.list-items li:hover {
+  color: hsl(180, 56%, 44%);
+  cursor: pointer;
+}
